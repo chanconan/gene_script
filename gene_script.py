@@ -95,7 +95,7 @@ class EnsemblGene:
         return response.text.split('\t')[-1].split('\n')[0]
 
 
-print("Enter/Paste your content. Ctrl-D or Ctrl-Z ( windows ) to save it.")
+print("Enter/Paste your content.")
 contents = []
 line = input("Type exit when complete\n")
 while line != 'exit':
